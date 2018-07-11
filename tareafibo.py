@@ -3,7 +3,11 @@ cond=False
 a = 1
 b = 0
 while cond == False :
+<<<<<<< HEAD
 	numeros = int(input("Cuantos numeros de la serie Fibonacci necesitas? (Tiene que ser mayor o igual a 5 o menor o igual a 15). "))
+=======
+	numeros = float(input("Cuantos numeros de la serie Fibonacci necesitas? (Tiene que ser mayor o igual a 5 o menor o igual a 15). "))
+>>>>>>> dev3
 	if numeros >= 5 and numeros <= 15:
 		cond = True
 	else:
